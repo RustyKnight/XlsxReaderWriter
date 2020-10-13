@@ -94,7 +94,6 @@
 		454D49FD1B4B27E40053CD86 /* BRATheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 454D49FC1B4B27E40053CD86 /* BRATheme.m */; };
 		455542A71C492C6A00EAB8FE /* BRAPlatformSpecificDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 455542A61C492C6A00EAB8FE /* BRAPlatformSpecificDefines.h */; };
 		455C23B61BB908D300CEE3A2 /* BRAVmlDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 455C23B51BB908D300CEE3A2 /* BRAVmlDrawing.m */; };
-		457B68821B9DE8FC0096E1D1 /* SwiftTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457B68811B9DE8FC0096E1D1 /* SwiftTestCase.swift */; };
 		4580C6771A15157100790ED5 /* BRARelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 4580C6741A15157100790ED5 /* BRARelationship.m */; };
 		4580C6781A15157100790ED5 /* BRARelationships.m in Sources */ = {isa = PBXBuildFile; fileRef = 4580C6761A15157100790ED5 /* BRARelationships.m */; };
 		4580C67B1A1515AB00790ED5 /* BRAElementWithRelationships.m in Sources */ = {isa = PBXBuildFile; fileRef = 4580C67A1A1515AB00790ED5 /* BRAElementWithRelationships.m */; };
@@ -128,17 +127,9 @@
 		4580C6D41A15171B00790ED5 /* NSDictionary+OpenXMLDictionaryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4580C6D01A15171B00790ED5 /* NSDictionary+OpenXMLDictionaryParser.m */; };
 		4580C6D51A15171B00790ED5 /* NSDictionary+OpenXmlString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4580C6D21A15171B00790ED5 /* NSDictionary+OpenXmlString.m */; };
 		4580C6D81A15176A00790ED5 /* BRAOfficeDocumentPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4580C6D71A15176A00790ED5 /* BRAOfficeDocumentPackage.m */; };
-		45B6E2461A148F7500288A78 /* libXlsxReaderWriter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6E23A1A148F7500288A78 /* libXlsxReaderWriter.a */; };
 		45B6E26D1A15063800288A78 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6E26C1A15063800288A78 /* XMLDictionary.m */; };
-		45B6E2FC1A15099000288A78 /* photo-1415226481302-c40f24f4d45e.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45B6E2F91A15099000288A78 /* photo-1415226481302-c40f24f4d45e.jpeg */; };
-		45B6E2FD1A15099000288A78 /* testWorkbook.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 45B6E2FA1A15099000288A78 /* testWorkbook.xlsx */; };
-		45B6E2FE1A15099000288A78 /* BRAXlsxReaderWriterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6E2FB1A15099000288A78 /* BRAXlsxReaderWriterTests.m */; };
 		45B6E3051A15111800288A78 /* libSSZipArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6E2681A1505C400288A78 /* libSSZipArchive.a */; };
-		45B6E3071A1511A000288A78 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6E3061A1511A000288A78 /* libz.dylib */; };
-		45B6E30A1A1512DD00288A78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6E3091A1512DD00288A78 /* Foundation.framework */; };
-		45B6E30C1A1512E700288A78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6E30B1A1512E700288A78 /* CoreGraphics.framework */; };
 		45B6E30D1A1512F700288A78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6E3091A1512DD00288A78 /* Foundation.framework */; };
-		45B6E30F1A15132200288A78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6E30E1A15132200288A78 /* UIKit.framework */; };
 		45D6FBCF1BB27747002ACC9C /* BRAComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D6FBCA1BB212A2002ACC9C /* BRAComments.m */; };
 		45D6FBD41BB27833002ACC9C /* BRACalcChainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D6FBD31BB27833002ACC9C /* BRACalcChainCell.m */; };
 		45D6FBD81BB279A5002ACC9C /* BRAComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D6FBD71BB279A5002ACC9C /* BRAComment.m */; };
@@ -158,13 +149,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 22225F141C47EBB400256993;
 			remoteInfo = "SSZipArchive Mac Static";
-		};
-		45B6E2471A148F7500288A78 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45B6E2321A148F7500288A78 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45B6E2391A148F7500288A78;
-			remoteInfo = XlsxReaderWriter;
 		};
 		45B6E2671A1505C400288A78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -284,7 +268,6 @@
 		4580C6D61A15176A00790ED5 /* BRAOfficeDocumentPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAOfficeDocumentPackage.h; sourceTree = "<group>"; };
 		4580C6D71A15176A00790ED5 /* BRAOfficeDocumentPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAOfficeDocumentPackage.m; sourceTree = "<group>"; };
 		45B6E23A1A148F7500288A78 /* libXlsxReaderWriter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXlsxReaderWriter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		45B6E2451A148F7500288A78 /* XlsxReaderWriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XlsxReaderWriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B6E24B1A148F7500288A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B6E2621A1505C400288A78 /* SSZipArchive.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSZipArchive.xcodeproj; path = ThirdParties/SSZipArchive/SSZipArchive.xcodeproj; sourceTree = SOURCE_ROOT; };
 		45B6E26B1A15063800288A78 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLDictionary.h; path = ThirdParties/XMLDictionary/XMLDictionary/XMLDictionary.h; sourceTree = SOURCE_ROOT; };
@@ -322,18 +305,6 @@
 			files = (
 				45B6E30D1A1512F700288A78 /* Foundation.framework in Frameworks */,
 				45B6E3051A15111800288A78 /* libSSZipArchive.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45B6E2421A148F7500288A78 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45B6E30F1A15132200288A78 /* UIKit.framework in Frameworks */,
-				45B6E30C1A1512E700288A78 /* CoreGraphics.framework in Frameworks */,
-				45B6E30A1A1512DD00288A78 /* Foundation.framework in Frameworks */,
-				45B6E3071A1511A000288A78 /* libz.dylib in Frameworks */,
-				45B6E2461A148F7500288A78 /* libXlsxReaderWriter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +372,6 @@
 			isa = PBXGroup;
 			children = (
 				45B6E23A1A148F7500288A78 /* libXlsxReaderWriter.a */,
-				45B6E2451A148F7500288A78 /* XlsxReaderWriterTests.xctest */,
 				22156D581C46B42500BB5779 /* XlsxReaderWriter.framework */,
 			);
 			name = Products;
@@ -975,24 +945,6 @@
 			productReference = 45B6E23A1A148F7500288A78 /* libXlsxReaderWriter.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		45B6E2441A148F7500288A78 /* XlsxReaderWriterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45B6E2511A148F7500288A78 /* Build configuration list for PBXNativeTarget "XlsxReaderWriterTests" */;
-			buildPhases = (
-				45B6E2411A148F7500288A78 /* Sources */,
-				45B6E2421A148F7500288A78 /* Frameworks */,
-				45B6E2431A148F7500288A78 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45B6E2481A148F7500288A78 /* PBXTargetDependency */,
-			);
-			name = XlsxReaderWriterTests;
-			productName = XlsxReaderWriterTests;
-			productReference = 45B6E2451A148F7500288A78 /* XlsxReaderWriterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1000,7 +952,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = BRAE;
 				TargetAttributes = {
 					22156D571C46B42500BB5779 = {
@@ -1009,17 +961,15 @@
 					45B6E2391A148F7500288A78 = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					45B6E2441A148F7500288A78 = {
-						CreatedOnToolsVersion = 6.1;
-					};
 				};
 			};
 			buildConfigurationList = 45B6E2351A148F7500288A78 /* Build configuration list for PBXProject "XlsxReaderWriter" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 45B6E2311A148F7500288A78;
 			productRefGroup = 45B6E23B1A148F7500288A78 /* Products */;
@@ -1033,7 +983,6 @@
 			projectRoot = "";
 			targets = (
 				45B6E2391A148F7500288A78 /* XlsxReaderWriter */,
-				45B6E2441A148F7500288A78 /* XlsxReaderWriterTests */,
 				22156D571C46B42500BB5779 /* XlsxReaderWriter Mac */,
 			);
 		};
@@ -1068,15 +1017,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45B6E2431A148F7500288A78 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45B6E2FD1A15099000288A78 /* testWorkbook.xlsx in Resources */,
-				45B6E2FC1A15099000288A78 /* photo-1415226481302-c40f24f4d45e.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1175,15 +1115,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45B6E2411A148F7500288A78 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45B6E2FE1A15099000288A78 /* BRAXlsxReaderWriterTests.m in Sources */,
-				457B68821B9DE8FC0096E1D1 /* SwiftTestCase.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1191,11 +1122,6 @@
 			isa = PBXTargetDependency;
 			name = "SSZipArchive Mac Static";
 			targetProxy = 22225F211C47EC4500256993 /* PBXContainerItemProxy */;
-		};
-		45B6E2481A148F7500288A78 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 45B6E2391A148F7500288A78 /* XlsxReaderWriter */;
-			targetProxy = 45B6E2471A148F7500288A78 /* PBXContainerItemProxy */;
 		};
 		45B6E3041A15111300288A78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1275,23 +1201,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1304,7 +1242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1317,33 +1255,46 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1382,53 +1333,6 @@
 			};
 			name = Release;
 		};
-		45B6E2521A148F7500288A78 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XlsxReaderWriterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-					"-ObjC",
-					"-all_load",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "XlsxReaderWriterTests/XlsxReaderWriterTests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		45B6E2531A148F7500288A78 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = XlsxReaderWriterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-					"-ObjC",
-					"-all_load",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "XlsxReaderWriterTests/XlsxReaderWriterTests-Bridging-Header.h";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1455,15 +1359,6 @@
 			buildConfigurations = (
 				45B6E24F1A148F7500288A78 /* Debug */,
 				45B6E2501A148F7500288A78 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		45B6E2511A148F7500288A78 /* Build configuration list for PBXNativeTarget "XlsxReaderWriterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45B6E2521A148F7500288A78 /* Debug */,
-				45B6E2531A148F7500288A78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
